@@ -1,0 +1,2 @@
+TRAIN: bool = False
+DATASET_TRAIN_VAL_SPLIT_PERCENTAGE: float = 1e-05

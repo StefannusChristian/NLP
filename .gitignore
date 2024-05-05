@@ -1,2 +1,3 @@
-mbart-large-50-one-to-many-mmt-finetuned-en-to-id
+__pycache__
+mbart-large-50-one-to-many-mmt
 opus-mt-en-id-finetuned-en-to-id
