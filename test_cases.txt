@@ -3,7 +3,3 @@
 • (5 points) data source (example: url_link/survey/SEP/BEM) and brief description of the data
 • (5 points) how to obtain data (example: crawling/scraping/raw data ready)
 • (5 points) type of transformer architecture to be used
-
-2. This model is a fine-tuned checkpoint of mBART-large-50. mbart-large-50-many-to-many-mmt is fine-tuned for multilingual machine translation. It was introduced in Multilingual Translation with Extensible Multilingual Pretraining and Finetuning paper.
-
-3. The model can translate directly between any pair of 50 languages. To translate into a target language, the target language id is forced as the first generated token. To force the target language id as the first generated token, pass the forced_bos_token_id parameter to the generate method.
