@@ -1,0 +1,9 @@
+1. Before doing modeling, careful consideration is needed about what data to choose and what kind of modeling is required. So 1 week before this project starts, collect via text entry that has been prepared on the canvas, a short proposal (less than 500 words) regarding the problem you want to solve along with the data and modeling that you will use. Proposals will be assessed qualitatively first to ensure each group's project is unique. If there are the same data options, only proposals from the group that collected first are accepted. You may use the algorithms used in individual tasks, but may not work on the same project or use the same data. You are free to use any python library. If the proposal is complete and valid, it will automatically get a score of 20 points, where the distribution is as follows:
+• (5 points) the problem it is trying to solve
+• (5 points) data source (example: url_link/survey/SEP/BEM) and brief description of the data
+• (5 points) how to obtain data (example: crawling/scraping/raw data ready)
+• (5 points) type of transformer architecture to be used
+
+2. This model is a fine-tuned checkpoint of mBART-large-50. mbart-large-50-many-to-many-mmt is fine-tuned for multilingual machine translation. It was introduced in Multilingual Translation with Extensible Multilingual Pretraining and Finetuning paper.
+
+3. The model can translate directly between any pair of 50 languages. To translate into a target language, the target language id is forced as the first generated token. To force the target language id as the first generated token, pass the forced_bos_token_id parameter to the generate method.
