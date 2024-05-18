@@ -1,5 +1,3 @@
-1. Before doing modeling, careful consideration is needed about what data to choose and what kind of modeling is required. So 1 week before this project starts, collect via text entry that has been prepared on the canvas, a short proposal (less than 500 words) regarding the problem you want to solve along with the data and modeling that you will use. Proposals will be assessed qualitatively first to ensure each group's project is unique. If there are the same data options, only proposals from the group that collected first are accepted. You may use the algorithms used in individual tasks, but may not work on the same project or use the same data. You are free to use any python library. If the proposal is complete and valid, it will automatically get a score of 20 points, where the distribution is as follows:
-• (5 points) the problem it is trying to solve
-• (5 points) data source (example: url_link/survey/SEP/BEM) and brief description of the data
-• (5 points) how to obtain data (example: crawling/scraping/raw data ready)
-• (5 points) type of transformer architecture to be used
+1. Tom is one of my friends. I don't expect you to be Tom's friend either. I'm not the only one here who thinks Tom is a nice guy. If Tom would smile more often, he'd probably have more friends.
+
+2. I want to tell you something, but it's a secret. Promise not to tell. I got my driver's license on the second time I tried to pass the driver's test. I don't think I can get you to understand how easy to get driver's license. When I'm good at driving, I'll teach you.
